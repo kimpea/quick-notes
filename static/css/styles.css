@@ -1,0 +1,66 @@
+/*-- Fonts --*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/*-- HTML & Body Styles --*/
+html, body {
+    height: 100%;
+}
+
+/*-- Jumbotron Styles --*/
+.jumbotron {
+    text-align: center;
+}
+
+/*-- Text Styles --*/
+.intro {
+	margin: 30px 0px;
+	font-weight: bold;
+}
+
+p {
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-- List Styles --*/
+ul {
+	text-align: left;
+    margin-top: 20px;
+}
+
+
+li {
+	list-style: none;
+    color: #fff;
+    background-color: #4582EC;
+    padding: 1rem 1.2rem;
+    margin: 1rem;
+    font-weight: normal;
+    white-space: nowrap;
+    border-radius: 0.25rem;
+    vertical-align: bottom;
+}
+
+li > button {
+	font-weight: normal;
+	background: none;
+	border: none;
+	float: right;
+	color: #fafafa;
+    font-weight: 800;
+}
+
+/*-- JS Styles --*/
+.done {
+	background: #02B875 !important;
+	color: #fafafa;
+}
+
+.delete {
+	display: none;
+}
+
+/*-- Button Styles --*/
+#submitNote {
+    margin: 1rem;
+}
