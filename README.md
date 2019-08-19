@@ -12,4 +12,6 @@ When a task is complete, the user can click on one of the list items and it will
 To remove an item, click on the 'X'. 
 Refreshing the page will remove all list items.
 
+Live demo can be viewed [here](https://kimpea.github.io/quick-notes/).
+
 This application has been created by Kim Pearton.
