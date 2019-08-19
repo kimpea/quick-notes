@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap 4 / Bootswatch -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/litera/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/styles.css">
+    <title>Quick Notes</title>
+</head>
+
+<body>
+
+    <div class="container h-100 d-flex justify-content-center">
+        <div class="jumbotron my-auto">
+            <!-- Title -->
+            <div class="row">
+                <div class="intro col-lg-12">
+                    <h1>Quick Notes</h1>
+                </div>
+            </div>
+            <!-- Instructions -->
+            <div class="row">
+                <div class="instructions col-lg-12">
+                    <p>Welcome to Quick Notes - a handy, quick note-taking application.</p>
+                    <p>Enter text into the input field below to make a list of notes.</p>
+                    <p>Click on the note to mark it as completed or done.</p>
+                    <p>To remove a note, click on the 'X'.</p>
+                </div>
+            </div>
+            <!-- User Input -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <input id="userInput" class="form-control" type="text" placeholder="New note...">
+                    <button id="submitNote" type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+            <!-- Empty List -->
+            <div class="row">
+                <div class="listItems col-lg-12">
+                    <ul class="col-lg-12 col-md-12 col-sm-12"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="static/js/script.js"></script>
+</body>
+
+</html>
